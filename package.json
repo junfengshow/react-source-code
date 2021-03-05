@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "dumi-app",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "doc:dev": "cross-env UMI_ENV=doc npx dumi dev",
+    "doc:build": "cross-env UMI_ENV=doc npx dumi build"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dumi": "^1.0.12",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "yorkie": "^2.0.0"
+  }
+}
